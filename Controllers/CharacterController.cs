@@ -30,6 +30,11 @@ namespace firstAppi.Controllers
             return Ok(await _icharacterService.GetCharacterById(id));
         }
 
+        [HttpGet("GetFirstCharacter")]
+        public async Task<ActionResult<ServiceResponse<GetCharacterDTO>>> GetFirstCharacter(int id){
+            return Ok(await _icharacterService.GetFirstCharacter(id));
+        }
+
         [HttpPost]
         public async Task<ActionResult<ServiceResponse<List<GetCharacterDTO>>>> AddCharacter(AddCharacterDTO newCharacter){
             return Ok (await _icharacterService.AddCharacter(newCharacter));

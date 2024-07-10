@@ -44,5 +44,13 @@ namespace firstAppi.Services
            serviceResponse.Data = _mapper.Map<GetCharacterDTO>(character);
            return serviceResponse;
         }
+
+        public async Task<ServiceResponse<GetCharacterDTO>> GetFirstCharacter()
+        {
+           var serviceResponse = new ServiceResponse<GetCharacterDTO>();
+           var character = characters[0];
+           serviceResponse.Data = _mapper.Map<GetCharacterDTO>(character);
+           return serviceResponse;
+        }
     }
 }
