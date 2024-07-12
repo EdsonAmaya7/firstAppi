@@ -32,7 +32,7 @@ namespace firstAppi.Controllers
 
         [HttpGet("GetFirstCharacter")]
         public async Task<ActionResult<ServiceResponse<GetCharacterDTO>>> GetFirstCharacter(int id){
-            return Ok(await _icharacterService.GetFirstCharacter(id));
+            return Ok(await _icharacterService.GetFirstCharacter());
         }
 
         [HttpPost]
