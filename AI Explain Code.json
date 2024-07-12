@@ -1,0 +1,474 @@
+{
+  "cards": [
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "inputSequence": {
+          "componentLists": [
+            {
+              "components": [
+                {
+                  "delay": {
+                    "durationMs": 21
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Ctrl",
+                    "hidUsage": 224,
+                    "isDown": true,
+                    "virtualKeyId": "VK_LCONTROL"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "C",
+                    "hidUsage": 6,
+                    "isDown": true,
+                    "virtualKeyId": "VK_C"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "C",
+                    "hidUsage": 6,
+                    "isDown": false,
+                    "virtualKeyId": "VK_C"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Ctrl",
+                    "hidUsage": 224,
+                    "isDown": false,
+                    "virtualKeyId": "VK_LCONTROL"
+                  }
+                }
+              ]
+            }
+          ],
+          "defaultDelay": 21,
+          "showUpDown": false,
+          "useDefaultDelay": true
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "INPUT_SEQUENCE"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "application_id_microsoft_edge_chromium",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "macro_presets_bring_to_foreground_win",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "appWindowsManagement": {
+          "action": "BRING_TO_FOREGROUND",
+          "appName": "Microsoft Edge",
+          "bundleId": "",
+          "path": ""
+        },
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "APP_WINDOWS_MANAGEMENT"
+      },
+      "name": "ASSIGNMENT_NAME_BRING_TO_FOREGROUND",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": true,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "delay": {
+          "durationMs": 1500
+        },
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "DELAY"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [],
+      "taskId": 0
+    },
+    {
+      "applicationId": "application_id_microsoft_edge_chromium",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "icons": {
+        "icons": [
+          "NewBrowserTab.png",
+          "NewBrowserTab.svg"
+        ],
+        "uri": "pipeline://system_actions/"
+      },
+      "id": "card_global_presets_new_browser_tab",
+      "macro": {
+        "actionName": "Ctrl + T",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "keystroke": {
+          "code": 23,
+          "displayCharacter": "",
+          "modifiers": [
+            224
+          ],
+          "virtualKeyId": ""
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "KEYSTROKE"
+      },
+      "name": "ASSIGNMENT_NAME_NEW_BROWSER_TAB",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": true,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 197
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "text_block_card",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "textBlock": {
+          "cat": "",
+          "id": "",
+          "text": "https://chat.openai.com/chat?model=gpt-4"
+        },
+        "type": "TEXT_BLOCK"
+      },
+      "name": "text_block_card",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "inputSequence": {
+          "componentLists": [
+            {
+              "components": [
+                {
+                  "delay": {
+                    "durationMs": 21
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": true,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": false,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                }
+              ]
+            }
+          ],
+          "defaultDelay": 21,
+          "showUpDown": false,
+          "useDefaultDelay": true
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "INPUT_SEQUENCE"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "delay": {
+          "durationMs": 1500
+        },
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "DELAY"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "text_block_card",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "textBlock": {
+          "cat": "",
+          "id": "",
+          "text": "Can you explain the following code to me: "
+        },
+        "type": "TEXT_BLOCK"
+      },
+      "name": "text_block_card",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "delay": {
+          "durationMs": 1500
+        },
+        "icon": "",
+        "initPeriod": 0,
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "DELAY"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [],
+      "taskId": 0
+    },
+    {
+      "applicationId": "",
+      "attribute": "MACRO_PLAYBACK",
+      "continuous": false,
+      "executeOnProfileChange": false,
+      "id": "",
+      "macro": {
+        "actionName": "",
+        "alternateMacros": [],
+        "icon": "",
+        "initPeriod": 0,
+        "inputSequence": {
+          "componentLists": [
+            {
+              "components": [
+                {
+                  "delay": {
+                    "durationMs": 21
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Ctrl",
+                    "hidUsage": 224,
+                    "isDown": true,
+                    "virtualKeyId": "VK_LCONTROL"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "V",
+                    "hidUsage": 25,
+                    "isDown": true,
+                    "virtualKeyId": "VK_V"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "V",
+                    "hidUsage": 25,
+                    "isDown": false,
+                    "virtualKeyId": "VK_V"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Ctrl",
+                    "hidUsage": 224,
+                    "isDown": false,
+                    "virtualKeyId": "VK_LCONTROL"
+                  }
+                }
+              ]
+            },
+            {
+              "components": [
+                {
+                  "delay": {
+                    "durationMs": 21
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": true,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                },
+                {
+                  "keyboard": {
+                    "displayName": "Enter",
+                    "hidUsage": 40,
+                    "isDown": false,
+                    "virtualKeyId": "VK_NUMPAD_ENTER"
+                  }
+                }
+              ]
+            }
+          ],
+          "defaultDelay": 21,
+          "showUpDown": false,
+          "useDefaultDelay": true
+        },
+        "onboardable": false,
+        "repeatPeriod": 0,
+        "type": "INPUT_SEQUENCE"
+      },
+      "name": "",
+      "nestedCards": {},
+      "nestedCardsOrder": [],
+      "readOnly": false,
+      "requireFocus": false,
+      "selectedNestedCard": "",
+      "state": "READY",
+      "tags": [
+        "PRESET_TAG_KEY_OR_BUTTON"
+      ],
+      "taskId": 0
+    }
+  ],
+  "categories": [
+    "AI"
+  ],
+  "description": "Select the code and allow ChatGPT to explain it",
+  "iconPath": "",
+  "id": "058bf756-4dad-4253-966b-f1209e987a58",
+  "lastEditTimestamp": "1720498813014",
+  "name": "AI Explain Code",
+  "originType": "PREDEFINED",
+  "platform": "WIN",
+  "predefinedIdRef": "macros_preset_ai_explain_code",
+  "state": "ACTIVE",
+  "usageCount": 0
+}
